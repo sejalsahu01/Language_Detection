@@ -13,16 +13,21 @@ This project is a simple language detection system that uses Machine Learning an
 ### **Installation**
 1. Clone this repository:
 ```bash
- git clone <repository-url>
+git clone https://github.com/sejalsahu01/Language_Detection
+cd Language_Detection
 ```
 2. Install required dependencies:
  ```bash
  pip install -r requirements.txt
  ```
+3. Run the Jupyter Notebook to explore or modify the model:
+ ```bash
+ jupyter notebook
+ ```
 ---
 ### **How It Works**
 1. Data preprocessing:
-   - Convert text into numerical data using ```CountVectorizer```.
+   - Convert text into numerical data using ```CountVectorizer```(Bag-of-Words approach).
    - Train the model using ```MultinomialNB```.
 2. Model Training:
    - Use the text dataset to train the Naive Bayes model.
