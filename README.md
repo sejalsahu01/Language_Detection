@@ -85,5 +85,7 @@ Predicted Language: ['Thai']
 - Improve accuracy with larger datasets.
 - Implement deep learning-based for better results.
 ---
+Live Link: https://sejaldetect.streamlit.app/
+---
 ### **Contributions**
 Feel free to fork the repository and submit pull requests for improvements! 😊
